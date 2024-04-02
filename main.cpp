@@ -23,9 +23,14 @@ int main() {
 		cout << " " << array[i];
 	}
 
-	
+	cout << endl;
+	cout << "Even indices:";
 
-	return 0;
+	for (int i = 0; i < SIZE_OF_ARRAY; i += 2) {
+		cout << " " << array[i];
+	}
+
+	
 }
 
 int ReturnRandomNum(int size_of_number) {
