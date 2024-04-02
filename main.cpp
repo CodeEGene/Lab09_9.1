@@ -30,7 +30,16 @@ int main() {
 		cout << " " << array[i];
 	}
 
+	cout << endl;
+	cout << "Even values:";
+
+	for (int i = 0; i < SIZE_OF_ARRAY; i++) {
+		if (array[i] % 2 == 0) cout << " " << array[i];
+	}
+
 	
+
+	return 0;
 }
 
 int ReturnRandomNum(int size_of_number) {
