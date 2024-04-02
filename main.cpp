@@ -37,7 +37,13 @@ int main() {
 		if (array[i] % 2 == 0) cout << " " << array[i];
 	}
 
-	
+	cout << endl;
+	cout << "Reversed order:";
+
+	for (int i = 0; i < SIZE_OF_ARRAY; i++) {
+		cout << " " << array[SIZE_OF_ARRAY - 1 - i];
+	}
+
 
 	return 0;
 }
