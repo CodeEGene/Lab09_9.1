@@ -44,6 +44,8 @@ int main() {
 		cout << " " << array[SIZE_OF_ARRAY - 1 - i];
 	}
 
+	cout << endl;
+	cout << "First and last elements: " << array[0] << " " << array[SIZE_OF_ARRAY - 1];
 
 	return 0;
 }
